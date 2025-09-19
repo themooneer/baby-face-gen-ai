@@ -1,0 +1,19 @@
+# macOS-compatible requirements
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+opencv-python==4.8.1.78
+numpy==1.24.3
+Pillow==10.1.0
+mediapipe==0.10.7
+scipy==1.11.4
+scikit-image==0.22.0
+aiofiles==23.2.1
+python-dotenv==1.0.0
+
+# Optional: If you want to try dlib (may require additional setup)
+# dlib==19.24.2
+
+# Alternative face detection libraries
+# mtcnn==0.1.1
+# tensorflow==2.13.0
